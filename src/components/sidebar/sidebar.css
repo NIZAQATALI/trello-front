@@ -1,0 +1,178 @@
+.sidebar {
+   
+  height: calc(100vh - 60px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+  width: 250px;
+  
+}
+
+.sidebarListItemTextHeading{
+  color:#455570 ;
+  font-weight: bold;
+  font-size: 12;
+  
+  
+}
+::-webkit-scrollbar {
+  width: 2px;
+}
+::-webkit-scrollbar-track {
+  background-color: #A3ABB8;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+}
+
+.sidebar.collapsed {
+  width: 0px;
+  overflow: visible;
+}
+
+.sidebarWrapper {
+  padding: 20px 12px;
+  position: relative; /* Add this line to make the position relative */
+}
+.listHeading{
+  font-weight: bold;
+  font-size: 12;
+  margin: 20px 0
+}
+.sidebarToggle {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  cursor: pointer;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.sidebarToggleRight {  
+  display: flex;   
+  justify-content: center;  
+  align-items: center;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+  position: absolute;
+  top: 25px;
+  background-color: #676373;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  right: -16px;
+  cursor: pointer;
+  color: #555;
+  transition: color 0.3s ease;
+}
+.sidebarList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sidebarListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.sidebarListItem
+.sidebarIcon {
+  margin-right: 15px;
+  font-size: 12;
+}
+.sidebarIconRightAdd{
+  margin-left: 75px;
+}
+.sidebarIconRightArrow{
+  margin-left: 20px;
+}
+.sidebarButton {
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.sidebarHr {
+  margin: 20px 0;
+}
+.sidebarHrBottom {
+  position: absolute;
+  top:50px;
+  margin: 20px 0;
+}
+
+.sidebarBoardList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-height: 180px;
+  overflow-y: auto;
+ 
+}
+
+
+.sidebarSubscriptionContainer {
+  position: relative;
+  margin-top: auto; /* This will push the container to the bottom */
+}
+.sidebarSubscriptionWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.sidebarSubscriptionHr {
+  margin-bottom: 10px;
+  background-color: #ddd;
+  height: 1px;
+  border: none;
+}
+.sidebarIcontry{
+font-size: 8px; margin-right: 50px;
+
+
+}
+.sidebarSubscriptionButton {
+  align-self: center;
+  width: 96%;
+  position: absolute;
+  /* bottom: -80px; */
+  border: none;
+  margin-top: 0px !important;
+  padding: 10px;
+ 
+  border-radius: 5px;
+  font-weight: 500;
+  background: linear-gradient(97.78deg, var(--ds-background-accent-purple-bolder, #4423a3) 17.5%, var(--ds-background-accent-magenta-subtle, #aa63cb) 113.39%);
+  color: #fff;
+  cursor: pointer;
+position: absolute;
+bottom: 10px;
+/* left: auto; */
+left: 2%;}
+.sidebarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sidebarBoard {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.sidebarBoardImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.sidebarListItemLink{
+  text-decoration: none;
+  color: #000;
+  
+}
+.menuItem{
+ min-width: 200px;
+
+}
